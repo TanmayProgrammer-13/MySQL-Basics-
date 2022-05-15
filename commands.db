@@ -1,0 +1,77 @@
+# Basic Commands Of MySQL
+
+# 1. SELECT - Extracts the Data from a Database
+
+SELECT column_name
+FROM table_name
+
+# SELECT Statements are Used to Fetch Data From a Database
+
+# 2. UPDATE - Updates Data in a Database
+
+UPDATE table_name
+SET any_column = any_value
+WHERE any_column = any_value
+
+# UPDATE Statements Hepls Us to Edit Rows In a Table
+
+# 3. DELETE - Deletes Data from a Database
+
+DELETE FROM table_name
+WHERE any_column = any_value
+
+# 4. INSERT INTO - Inserts New Data to Database
+
+INSERT INTO table_name(column_1,column_2,column_3)
+VALUES(value_1,value_2,value_3);
+
+# 5. CREATE DATABASE - Creates a New Database
+
+CREATE DATABASE data1;
+
+# CREATE DATABASE Statements creates a New MySQL Database
+
+# 6. ALTER DATABASE - Modifies a Database
+
+ALTER DATABASE database_name
+
+# ALTER Statements is used to Change the Characteristics of a Database
+
+# 7. CREATE TABLE - Creates a New Table
+
+CREATE TABLE table_name(
+column_1 datatype,
+column_2 datatype,
+column_3 datatype
+);
+
+# CREATE TABLE is Used to Create a New Table in the MySQL Database
+
+# 8. ALTER TABLE - Modifies a Table
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+# DROP DATABASE - Drops or Deletes a Database
+
+DROP DATABASE database_name;
+
+# Drops Database Statements drops or deletes a Database
+
+# 9. DROP TABLE - Deletes a Table
+
+DROP TABLE table_name;
+
+# DROP TABLE Statements drop a Existing table in a Database.
+
+# 10. CREATE INDEX - Creates an Index 
+
+CREATE INDEX index_name
+ON table_name(column_1,column_2);
+
+# 11.  DROP INDEX - Deletes an Index
+
+ALTER TABLE  table_name
+DROP INDEX index_name;
+
+DROP INDEX Statements Delete an idnex in a table
